@@ -5,18 +5,19 @@
 .contenaireGlobal{
     background: rgb(206, 204, 204);
 }
+/*--mise en forme du head de toutes les feuilles--*/
 .headTotal{
     position: relative;
     height: 500px;
     width: 100%;
     background-image: url(./images/astronaute.jpg);
-   
 }
+
 .head{
     position: absolute;
     top: 50px;
     left: 50px;
-    height: 100px;
+    height: 150px;
     width: 500px;
     background: rgba(231, 228, 228, 0.253);
     box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
@@ -24,7 +25,7 @@
     -webkit-background-filter: blur(10px);
     border:#fff;
     border-radius: 10px;
-    color: #000;
+    color: #fff;
     align-items: center;
     text-align: center;
 }
@@ -65,7 +66,7 @@
 }
 .clientImg{
     height: 100%;
-    width: 30%;
+    width: 45%;
     display: block;
     background-image: url(./images/clients.jpg);
     margin-right:auto;
@@ -83,7 +84,7 @@
     height: 200px;
     width: 100%;
     background-image: url(./images/lignesdecode.jpg);
-    color:rgb(106, 67, 247);
+    color:rgb(255, 6, 6);
     font-size: 3rem;
     font-weight: 700px;
     align-items: center;
@@ -94,7 +95,7 @@
 
 .graphCom{
     display: flex;
-    height: 300px;
+    height: 285px;
     width: 100%;
     margin: 10px;
     padding: 10px;
@@ -118,24 +119,38 @@
 }
 
 /*--pied de page---*/
+footer{
+    height: 170px;
+    width: auto;
+}
 .foot{
     display: flex;
     background: #000;
     color: #fff;
-    text-decoration: none;
-    height: 200px;
+    
 }
 .footlien{
     display: flex;
     flex-direction: column;
     margin: 10px;
     padding: 10px;
+    text-decoration: none;
 }
+
+/*--style coter contact--*/
+.containerContact{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
 /*--responsive--*/
 /*ça marche pas et je ne sais pas pourquoi*/
 @media screen and (max-width: 700px){
     .contenaireGlobal{
-        font-size: 8px;
+        font-size: 10px;
         display: block;
         block-size: auto;
         justify-content: center;
